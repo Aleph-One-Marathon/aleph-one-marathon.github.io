@@ -1,0 +1,50 @@
+<a name="download"></a>
+<h1>Download</h1>
+
+<div class="gamesec">
+<a href="/download/macosx.php?game={{ include.shortgame }}"><img src="/images/mac.jpg" width="240" height="120" alt="Mac OS X"></a>
+<a href="/download/macosx.php?game={{ include.shortgame }}" class="downloadonly"><img src="/images/download_mac.png" width="131" height="37" alt="Download {{ include.game }} for Mac OS X" class="noborder"></a>
+        <ul style="margin-top: 40px">
+          <li><a href="/download/macosx.php?game={{ include.shortgame }}">Download for Mac OS X</a></li>
+          <li>The disk image should automatically mount</li>
+          <li>Copy the <b>{{ include.game }}</b> app to your Applications folder</li>
+          <li>Launch <b>{{ include.game }}</b></li>
+        </ul>
+</div>
+
+<div class="gamesec">
+<a href="/download/windows.php?game={{ include.shortgame }}"><img src="/images/win.jpg" width="240" height="120" alt="Windows"></a>
+<a href="/download/windows.php?game={{ include.shortgame }}" class="downloadonly"><img src="/images/download_win.png" width="131" height="37" alt="Download {{ include.game }} for Windows" class="noborder"></a>
+        <ul style="margin-top: 40px">
+          <li><a href="/download/windows.php?game={{ include.shortgame }}">Download for Windows</a></li>
+          <li>Open the zip archive</li>
+          <li>Copy the <b>{{ include.game }}</b> folder to your Program Files folder</li>
+          <li>Launch <b>{{ include.game }}.exe</b></li>
+        </ul>
+</div>
+
+<div class="gamesec">
+<img src="/images/linux.jpg" width="240" height="120" alt="Linux" style="border: solid 1px black">
+<a href="/download/source.php" class="downloadmore"><img src="/images/download_source.png" width="122" height="37" alt="Download Aleph One Source for Linux" class="noborder"></a>
+<a href="/download/data.php?game={{ include.shortgame }}" class="downloadsecond"><img src="/images/download_files.png" width="93" height="37" alt="Download {{ include.game }} game files" class="noborder"></a>
+        <ul style="margin-top: 40px">
+          <li><a href="/download/source.php">Download Aleph One for Linux</a></li>
+          <li>Unpack the tar.bz2 file</li>
+          <li>Run <code>./configure && make && make install</code></li>
+          <li><a href="/download/data.php?game={{ include.shortgame }}">Download {{ include.game }} game files</a></li>
+          <li>Place the unzipped files in <b>/usr/local/share/AlephOne</b></li>
+          <li>Run <code>alephone</code></li>
+        </ul>
+</div>
+
+<hr style="clear: both">
+<p>
+{{ include.game }} is just one of the <a href="/scenarios.html">many games</a> you can play with Aleph One. If you already have a copy of the Aleph One application, you can download the <a href="/download/data.php?game={{ include.shortgame }}">standalone {{ include.game }} game files</a> for use with Aleph One 1.0 or later.
+</p>
+<p style="margin-bottom: 0; padding-bottom: 0">
+Download the GPL-licensed source code:
+</p>
+<ul style="margin-top: 0; padding-top: 4px">
+<li>Mac, Windows: <a href="/download/source.php" title="{{ include.game }} source code">base source</a> and <a href="/download/windows.php?type=libs" title="Aleph One libraries for Mac and Windows">required libraries</a></li>
+<li>Linux, BSD, other systems: <a href="/download/source.php" title="Aleph One source code">source</a></li>
+</ul>

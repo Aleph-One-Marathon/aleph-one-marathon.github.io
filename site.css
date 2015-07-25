@@ -1,0 +1,254 @@
+body
+{
+    background: #003300;
+    margin: 10px 10px 0px 10px;
+    font-family: sans-serif;
+}
+
+a {
+    color: #060;
+}
+
+p {
+    margin: 0.8em 0;
+}
+
+#banner
+{
+    width: 960px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('images/banner.png');
+    border: 1px solid #000;
+}
+
+#banner h2
+{
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 8pt;
+    color: white;
+    float: right;
+    clear: right;
+}
+
+#banner a
+{
+    color: white !important;
+    text-decoration: none;
+}
+
+#banner2
+{
+    width: 960px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('images/banner2.png');
+    border: none;
+    position: relative;
+}
+#banner2 a
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 960px;
+    height: 70px;
+    text-decoration: none;
+    background-color: transparent;
+}
+#banner2 a:hover
+{
+    text-decoration: none;
+    background-color: transparent;
+}
+#banner2 a span
+{
+    position: absolute;
+    left: -10000px;
+    height: 1px;
+}
+
+#links
+{
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: -4px;
+    padding: 0px;
+}
+
+#links a
+{
+    font-size: 14pt;
+    color: white;
+/*    font-variant: small-caps;*/
+    font-family: Squarish Sans SC, Arial, sans-serif;
+    background-color: #010;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 224px;
+    padding: 4px;
+    margin: 0 4px;
+    list-style-type: none;
+    text-decoration: none;
+    border: solid 1px black;
+    border-bottom: none;
+}
+
+#links a:first-child
+{
+  margin: 0 5px 0 4px;
+}
+#links a:last-child
+{
+  margin: 0 0 0 5px;
+}
+
+#links a:hover
+{
+    color: #030;
+    background-color: white;
+}
+
+cite.game {
+/*    font-style: normal;*/
+/*    font-variant: small-caps;*/
+}
+
+.main
+{
+    background: white;
+    width: 952px;
+    margin: 8px auto 0;
+    padding: 4px;
+    border: 1px solid #000;
+    border-bottom: none;
+    clear: both;
+}
+
+.main p
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gamesec p
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sourceforge img
+{
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main h1
+{
+/*    font-variant: small-caps;*/
+    font-family: Squarish Sans SC, Arial, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+/*    border-bottom: 1px solid #030;*/
+}
+
+.main h2 {
+/*  font-variant: small-caps;*/
+  font-family: Squarish Sans SC, Arial, sans-serif;
+  margin: 0 0 0.5em;
+  padding: 0;
+  text-align: center;
+}
+
+.main hr {
+  clear: both;
+  margin: 8px -5px;
+  height: 8px;
+  border: solid 1px black;
+  border-left: none;
+  border-right: none;
+  background-color: #003300;
+}
+
+.main .gamedesc {
+  border: none;
+  margin: 8px 0 8px 300px;
+  width: 640px;
+}
+
+.main h1.gametitle {
+  background-color: black;
+  margin: 30px -4px 8px -4px;
+  border: none;
+  padding: 1px 1px 1px 300px;
+}
+
+.main .gamecollage {
+  float: left;
+  padding: 4px;
+}
+
+a:link img, a:visited img {
+  border: solid 1px black;
+}
+a:hover img {
+  border: solid 1px #44F;
+}
+
+a:link img.noborder, a:visited img.noborder, a:hover img.noborder {
+  border: none;
+}
+
+.gamesec {
+  float: left;
+  width: 242px;
+  margin-left: 56px;
+  padding: 0;
+  position: relative;
+}
+
+/*
+.gamesec strong {
+  font-variant: small-caps;
+}
+*/
+
+.gamesec code {
+  font-weight: bold;
+}
+
+.gamesec .moreinfo {
+  position: absolute;
+  left: 150px;
+  top: 112px;
+}
+
+.gamesec .downloadmore {
+  position: absolute;
+  left: 10px;
+  top: 112px;
+}
+
+.gamesec .downloadonly {
+  position: absolute;
+  left: 55px;
+  top: 112px;
+}
+
+.gamesec .downloadsecond {
+  position: absolute;
+  left: 139px;
+  top: 112px;
+}
+
