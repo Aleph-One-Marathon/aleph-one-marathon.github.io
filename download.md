@@ -7,7 +7,7 @@ redirect_from: /download.php
 
 # <a name="download"></a> Download Aleph One
 
-### Version <span style="font-size: larger">{{ vlatest.display }}</span> &#8212; released {{ vlatest.date }}
+### Version <span style="font-size: larger">{{ vlatest.display }}</span> &#8212; released {{ vlatest.date }} &#8212; <a href="{{ vlatest_notes }}" target="_blank">release notes</a>
 
 The Aleph One game engine brings Bungie's Marathon trilogy to modern computers, and also powers dozens of community-made games. To play, you will need a set of game data files (known as a [scenario](/scenarios.html)), and the engine itself. Download the engine here:
 

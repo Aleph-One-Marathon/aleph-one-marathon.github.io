@@ -17,9 +17,9 @@
   <body>
   {% if include.banner == 'big' %}
     <div id="banner">
-      <h2><a href="{{ vstable.filedir }}">Latest Release: {{ vstable.display }} ({{ vstable.date }})</a></h2>
+      <h2><a href="{{ vstable_notes }}" target="_blank">Latest Release: {{ vstable.display }} ({{ vstable.date }})</a></h2>
       {% if vbeta %}
-        <h2><a href="{{ vbeta.filedir }}">Beta Release: {{ vbeta.display }} ({{ vstable.date }})</a></h2>
+        <h2><a href="{{ vbeta_notes }}" target="_blank">Beta Release: {{ vbeta.display }} ({{ vstable.date }})</a></h2>
       {% endif %}
     </div>
      <div id="links">
