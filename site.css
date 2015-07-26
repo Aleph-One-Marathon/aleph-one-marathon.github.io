@@ -170,7 +170,12 @@ cite.game {
   padding: 0;
   text-align: center;
 }
-
+.main h3, .main h4, .main h5, .main h6 {
+/*  font-variant: small-caps;*/
+  font-family: Squarish Sans SC, Arial, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
 .main hr {
   clear: both;
   margin: 8px -5px;

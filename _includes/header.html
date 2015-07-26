@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
                       "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+{% capture dummy %}{% include version_info.md %}{% endcapture %}
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>{{ page.title }} - Marathon Open Source</title>
@@ -15,11 +16,10 @@
   </head>
   <body>
   {% if include.banner == 'big' %}
-    {% assign vv = site.data.version %}
     <div id="banner">
-      <h2><a href="{{ vv.stable.filedir }}">Latest Release: {{ vv.stable.display }} ({{ vv.stable.date }})</a></h2>
-      {% if vv.beta %}
-        <h2><a href="{{ vv.beta.filedir }}">Beta Release: {{ vv.beta.display }} ({{ vv.stable.date }})</a></h2>
+      <h2><a href="{{ vstable.filedir }}">Latest Release: {{ vstable.display }} ({{ vstable.date }})</a></h2>
+      {% if vbeta %}
+        <h2><a href="{{ vbeta.filedir }}">Beta Release: {{ vbeta.display }} ({{ vstable.date }})</a></h2>
       {% endif %}
     </div>
      <div id="links">

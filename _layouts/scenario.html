@@ -1,11 +1,12 @@
 {% include header.html %}
-<div class="gamecollage"><img src="/images/{{ page.shortgame }}_collage.png" width="280" height="350" alt="{{ page.game }} screenshots"></div>
-<h1 class="gametitle"><img src="/images/{{ page.shortgame }}_title.png" width="640" height="128" alt="{{ page.game }}"></h1>
+{% capture shortgame %}{{ page.game | replace:' ','' | downcase | replace:'marathoninfinity','infinity' }}{% endcapture %}
+<div class="gamecollage"><img src="/images/{{ shortgame }}_collage.png" width="280" height="350" alt="{{ page.game }} screenshots"></div>
+<h1 class="gametitle"><img src="/images/{{ shortgame }}_title.png" width="640" height="128" alt="{{ page.game }}"></h1>
 <div class="gamedesc">
 {{ content }}
 </div>
 <div style="clear: both"></div>
 
 <hr>
-{% include aio_download.html game=page.game shortgame=page.shortgame %}
+{% include aio_download.html game=page.game %}
 {% include footer.html %}
