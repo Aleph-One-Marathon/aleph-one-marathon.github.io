@@ -1,7 +1,6 @@
 ---
 title: Marathon Trilogy
 layout: default
-redirect_from: /games/trilogy.php
 ---
 
 Marathon trilogy

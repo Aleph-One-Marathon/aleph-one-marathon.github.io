@@ -1,7 +1,6 @@
 ---
 title: Download Aleph One
 layout: default
-redirect_from: /download.php
 ---
 {% capture dummy %}{% include version_info.md %}{% endcapture %}
 

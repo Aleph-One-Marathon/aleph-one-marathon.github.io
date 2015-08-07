@@ -2,7 +2,6 @@
 title: Marathon
 layout: scenario
 game: Marathon
-redirect_from: /games/marathon.php
 ---
 Alien forces have boarded the interstellar colony ship _Marathon_. The situation is dire. As a security officer onboard, it is your duty to defend the ship and its crew.
 

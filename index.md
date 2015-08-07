@@ -1,9 +1,6 @@
 ---
 title: Aleph One
 layout: big
-redirect_from:
-  - /games/
-  - /images/
 ---
 {% capture dummy %}{% include version_info.md %}{% endcapture %}
 
