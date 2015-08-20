@@ -21,6 +21,19 @@ Aleph One is available under the terms of the [GNU General Public License (GPL)]
 
 ***
 
+Online play
+============
+
+Up to 8 players can participate in multiplayer matches or co-op play. All multiplayer games are peer-to-peer and work over a LAN or, if the host is configured properly, over the Internet. You can find and chat with other players in Aleph One's global matchmaking lobby.
+
+If you sign up for an optional lhowon.org account, you can track your play history and compete for a spot on the [monthly leaderboards](https://www.lhowon.org/).
+
+<p style="text-align: center; font-weight: bold">
+<a href="https://www.lhowon.org/faq">How to join or host games online</a>
+</p>
+
+***
+
 More games
 ==========
 
