@@ -6,6 +6,6 @@ stable:
   date: 2015-06-20
   shortdate: 20150620
 beta:
- display: 1.3b3
- date: 2019-03-31
- shortdate: 20190331
+ display: 1.3rc1
+ date: 2019-08-07
+ shortdate: 20200807
