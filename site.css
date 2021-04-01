@@ -75,6 +75,7 @@ p {
 
 #links
 {
+    display: flex;
     width: 970px;
     margin-left: auto;
     margin-right: auto;
@@ -85,6 +86,7 @@ p {
 
 #links a
 {
+    flex-grow: 1;
     font-size: 14pt;
     color: white;
 /*    font-variant: small-caps;*/
@@ -93,22 +95,12 @@ p {
     display: block;
     float: left;
     text-align: center;
-    width: 224px;
     padding: 4px;
-    margin: 0 4px;
+    margin: 0 5px;
     list-style-type: none;
     text-decoration: none;
     border: solid 1px black;
     border-bottom: none;
-}
-
-#links a:first-child
-{
-  margin: 0 5px 0 4px;
-}
-#links a:last-child
-{
-  margin: 0 0 0 5px;
 }
 
 #links a:hover
