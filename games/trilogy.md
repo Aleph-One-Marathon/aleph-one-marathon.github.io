@@ -7,7 +7,7 @@ Marathon trilogy
 ================
 
 <p style="text-align: center">
-Download the full games in Bungie's iconic <cite class="game">Marathon</cite> series:
+Download the full games in Bungie™'s iconic <cite class="game">Marathon®</cite> series:
 </p>
 
 {% include trilogy.html %} 

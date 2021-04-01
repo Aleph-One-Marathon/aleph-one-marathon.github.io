@@ -7,7 +7,7 @@ layout: big
 About
 =====
 
-Aleph One is the open source continuation of Bungie's <cite class="game">Marathon 2</cite> game engine. Available for Mac OS X, Windows, and Linux, Aleph One supports <cite class="game">Marathon</cite>, <cite class="game">Marathon 2</cite> and <cite class="game">Marathon Infinity</cite> natively. Many third party scenarios and net maps are also available.
+Aleph One is the open source continuation of Bungie™'s <cite class="game">Marathon® 2</cite> game engine. Available for Mac OS X, Windows, and Linux, Aleph One supports <cite class="game">Marathon</cite>, <cite class="game">Marathon 2</cite> and <cite class="game">Marathon Infinity</cite> natively. Many third party scenarios and net maps are also available.
 
 Aleph One is available under the terms of the [GNU General Public License (GPL)](http://www.gnu.org/licenses/gpl-3.0.html).
 
