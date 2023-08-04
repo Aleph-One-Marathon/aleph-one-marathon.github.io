@@ -11,7 +11,7 @@ layout: default
 The Aleph One game engine brings Bungie™'s Marathon® trilogy to modern computers, and also powers dozens of community-made games. To play, you will need a set of game data files (known as a [scenario](/scenarios.html)), and the engine itself. Download the engine here:
 
 <div class="gamesec">
-<a href="{{ link_alephmac }}"><img src="/images/mac.jpg" width="240" height="120" alt="macOS"></a>
+<a href="{{ link_alephmac }}"><img src="/images/mac.png" width="240" height="120" alt="macOS"></a>
 <a href="{{ link_alephmac }}" class="downloadonly"><img src="/images/download_mac.png" width="131" height="37" alt="Download Aleph One for macOS" class="noborder"></a>
         <ul style="margin-top: 40px">
           <li><a href="{{ link_alephmac }}">Download for macOS</a></li>
