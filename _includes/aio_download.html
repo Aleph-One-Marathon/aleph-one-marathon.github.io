@@ -6,14 +6,20 @@
   {% assign dl_mac = link_m1mac %}
   {% assign dl_win = link_m1win %}
   {% assign dl_data = link_m1data %}
+  {% assign dl_flatpak = link_m1flatpak %}
+  {% capture flatpak_file %}Marathon-{{ vlatest.shortdate }}.flatpak{% endcapture %}
 {% when 'Marathon 2' %}
   {% assign dl_mac = link_m2mac %}
   {% assign dl_win = link_m2win %}
   {% assign dl_data = link_m2data %}
+  {% assign dl_flatpak = link_m2flatpak %}
+  {% capture flatpak_file %}Marathon2-{{ vlatest.shortdate }}.flatpak{% endcapture %}
 {% when 'Marathon Infinity' %}
   {% assign dl_mac = link_m3mac %}
   {% assign dl_win = link_m3win %}
   {% assign dl_data = link_m3data %}
+  {% assign dl_flatpak = link_m3flatpak %}
+  {% capture flatpak_file %}MarathonInfinity-{{ vlatest.shortdate }}.flatpak{% endcapture %}
 {% endcase %}
 
 {% endcapture %}
@@ -45,15 +51,12 @@
 
 <div class="gamesec">
 <img src="/images/linux.jpg" width="240" height="120" alt="Linux" style="border: solid 1px black">
-<a href="{{ link_source }}" class="downloadmore"><img src="/images/download_source.png" width="122" height="37" alt="Download Aleph One Source for Linux" class="noborder"></a>
-<a href="{{ dl_data }}" class="downloadsecond"><img src="/images/download_files.png" width="93" height="37" alt="Download {{ include.game }} game files" class="noborder"></a>
+<a href="{{ dl_flatpak }}" class="downloadonly"><img src="/images/download_linux.png" width="131" height="37" alt="Download {{ include.game }} flatpak" class="noborder"></a>
         <ul style="margin-top: 40px">
-          <li><a href="{{ link_source }}">Download Aleph One for Linux</a></li>
-          <li>Unpack the tar.bz2 file</li>
-          <li>Run <code>./configure && make && make install</code></li>
-          <li><a href="{{ dl_data }}">Download {{ include.game }} game files</a></li>
-          <li>Place the unzipped files in <b>/usr/local/share/AlephOne</b></li>
-          <li>Run <code>alephone</code></li>
+          <li><a href="{{ dl_flatpak }}">Download Linux Flatpak</a></li>
+          <li><a href="https://flatpak.org/setup/">Set up Flatpak</a>
+          <li><code>flatpak install {{ flatpak_file }}</code></li>
+          <li>Launch <b>{{ include.game }}</b> from the application menu</li>
         </ul>
 </div>
 

@@ -24,9 +24,13 @@
 
 {% capture link_alephwin %}{{ vlatest_dl }}AlephOne-{{ vlatest.shortdate }}-Win.zip{% endcapture %}
 
+{% capture link_alephflatpak %}{{ vlatest_dl }}AlephOne-{{ vlatest.shortdate }}.flatpak{% endcapture %}
+
 {% capture link_m1mac %}{{ vlatest_dl }}Marathon-{{ vlatest.shortdate }}-Mac.dmg{% endcapture %}
 
 {% capture link_m1win %}{{ vlatest_dl }}Marathon-{{ vlatest.shortdate }}-Win.zip{% endcapture %}
+
+{% capture link_m1flatpak %}{{ vlatest_dl }}Marathon-{{ vlatest.shortdate }}.flatpak{% endcapture %}
 
 {% capture link_m1exe %}{{ vlatest_dl }}Marathon-{{ vlatest.shortdate }}-Exe-Win.zip{% endcapture %}
 
@@ -36,6 +40,8 @@
 
 {% capture link_m2win %}{{ vlatest_dl }}Marathon2-{{ vlatest.shortdate }}-Win.zip{% endcapture %}
 
+{% capture link_m2flatpak %}{{ vlatest_dl }}Marathon2-{{ vlatest.shortdate }}.flatpak{% endcapture %}
+
 {% capture link_m2exe %}{{ vlatest_dl }}Marathon2-{{ vlatest.shortdate }}-Exe-Win.zip{% endcapture %}
 
 {% capture link_m2data %}{{ vlatest_dl }}Marathon2-{{ vlatest.shortdate }}-Data.zip{% endcapture %}
@@ -43,6 +49,8 @@
 {% capture link_m3mac %}{{ vlatest_dl }}MarathonInfinity-{{ vlatest.shortdate }}-Mac.dmg{% endcapture %}
 
 {% capture link_m3win %}{{ vlatest_dl }}MarathonInfinity-{{ vlatest.shortdate }}-Win.zip{% endcapture %}
+
+{% capture link_m3flatpak %}{{ vlatest_dl }}MarathonInfinity-{{ vlatest.shortdate }}.flatpak{% endcapture %}
 
 {% capture link_m3exe %}{{ vlatest_dl }}MarathonInfinity-{{ vlatest.shortdate }}-Exe-Win.zip{% endcapture %}
 
