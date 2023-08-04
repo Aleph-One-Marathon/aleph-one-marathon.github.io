@@ -44,7 +44,7 @@ More games
 <div style="margin-left: 580px; height: 100px; position: relative">
 <a href="/download.html"><img src="/images/alephone_med.png" width="100" height="100" alt="Aleph One" class="noborder" style="position: absolute; left: 150px; top: 0"></a>
 <a href="{{ link_alephmac }}" class="mac_block" style="position: absolute; left: 5px; top: 31px"><img src="/images/download_mac.png" width="131" height="37" alt="Download Aleph One for macOS" class="noborder"></a>
-<a href="download.html" class="linux_block" style="position: absolute; left: 5px; top: 31px"><img src="/images/download_linux.png" width="131" height="37" alt="Download Aleph One for Linux" class="noborder"></a>
+<a href="/download.html" class="linux_block" style="position: absolute; left: 5px; top: 31px"><img src="/images/download_linux.png" width="131" height="37" alt="Download Aleph One for Linux" class="noborder"></a>
 <a href="{{ link_alephwin }}" class="win_block" style="position: absolute; left: 5px; top: 31px"><img src="/images/download_win.png" width="131" height="37" alt="Download Aleph One for Windows" class="noborder"></a>
-<a href="{{ dl_alephflatpak }}" style="position: absolute; left: 265px; top: 31px"><img src="/images/moreinfo.png" width="102" height="37" alt="Available for Mac, Windows, and Linux" class="noborder"></a>
+<a href="/download.html" style="position: absolute; left: 265px; top: 31px"><img src="/images/moreinfo.png" width="102" height="37" alt="Available for Mac, Windows, and Linux" class="noborder"></a>
 </div>
