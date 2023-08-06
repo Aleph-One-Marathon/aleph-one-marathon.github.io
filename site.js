@@ -1,11 +1,14 @@
 function switchPlatform(desired) {
-  var plats = new Array('mac', 'win', 'linux');
+  var plats = ['mac', 'win', 'linux'];
   for (var pi = 0; pi < plats.length; pi++)
   {
     var plat = plats[pi];
-    var visible = (plat == desired);
-    
-    $('.' + plat + '_block').css('display', (visible ? 'block' : 'none'));
+    var visible = (plat === desired);
+
+    var blocks = document.getElementsByClassName(plat + '_block');
+    for (var i = 0; i < blocks.length; i++) {
+      blocks[i].style.display = (visible ? 'block' : 'none');
+    }
   }
 }
 
@@ -31,6 +34,6 @@ function detectPlatform() {
   return 'win';
 }
 
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function() {
   switchPlatform(detectPlatform());
 });
