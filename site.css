@@ -249,3 +249,31 @@ a:link img.noborder, a:visited img.noborder, a:hover img.noborder {
   top: 112px;
 }
 
+.gameimg {
+    box-sizing: border-box;
+    display: flex;
+    width: 240px;
+    height: 120px;
+    text-decoration: none;
+    background-size: contain;
+    border: 1px solid black;
+}
+
+.gameimg:hover {
+    border: 1px solid #44f;
+}
+
+.gameimg span {
+    display: block;
+    margin: auto;
+    font-family: MaraPfhont;
+    font-size: 64px;
+    filter: drop-shadow(-2px -2px 2px #000000)
+            drop-shadow(2px -2px 2px #000000)
+            drop-shadow(-2px 2px 2px #000000)
+            drop-shadow(2px 2px 2px #000000);
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
