@@ -267,6 +267,7 @@ a:link img.noborder, a:visited img.noborder, a:hover img.noborder {
     display: block;
     margin: auto;
     font-family: MaraPfhont;
+    text-transform: uppercase;
     font-size: 64px;
     filter: drop-shadow(-2px -2px 2px #000000)
             drop-shadow(2px -2px 2px #000000)
