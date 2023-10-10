@@ -5,7 +5,7 @@ stable:
   display: 1.6.2
   date: 2023-05-29
   shortdate: 20230529
-# beta:
-#  display: 1.3rc1
-# date: 2020-08-07
-# shortdate: 20200807
+beta:
+  display: 1.7b1
+  date: 2023-10-01
+  shortdate: 20231001
