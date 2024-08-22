@@ -2,7 +2,7 @@ fileroot: https://github.com/Aleph-One-Marathon/alephone/releases/download/relea
 noteroot:
   https://github.com/Aleph-One-Marathon/alephone/releases/tag/release-
 stable:
-  display: 1.10
+  display: "1.10"
   date: 2024-08-22
   shortdate: 20240822
 # beta:
